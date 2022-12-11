@@ -18,8 +18,8 @@ class App extends Component {
         <Navbar />
       <div className="container">
           <Routes>
-            <Route exact path="/" component={Dashboard} />
-            <Route exact path="/pokemon/:pokemonIndex" component={Pokemon} />
+            <Route exact path="/" element={<Dashboard/>} />
+            <Route exact path="/pokemon/:pokemonIndex" element={<Pokemon/>} />
           </Routes>
          </div>
         </div>
